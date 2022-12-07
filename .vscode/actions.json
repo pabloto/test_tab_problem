@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Deploy and Build 🔨",
+    "environment": "pase",
+    "extensions": [
+      "GLOBAL"
+    ],
+    "deployFirst": true,
+    "command": "/QOpenSys/pkgs/bin/gmake OPTS=*EVENTF"
+  },
+  {
+    "name": "Build and deploy current 🔨",
+    "command": "/QOpenSys/pkgs/bin/gmake OPT=*EVENTF &BASENAME ",
+    "environment": "pase",
+    "deployFirst": true,
+    "extensions": [
+      "GLOBAL"
+    ]
+
+  }
+]

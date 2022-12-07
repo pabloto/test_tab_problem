@@ -1,0 +1,1 @@
+Select *from gestsimdat.regdev0f limit 10;
