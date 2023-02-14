@@ -1739,7 +1739,7 @@ dcl-s Lock      int(20) Static(*allThread);
 // ____________________________________________________________________________
 
 Exec Sql
-  Set Option Datfmt = *Iso, Timfmt = *Iso, Closqlcsr = *EndMod, Commit = *none;
+  Set Option Datfmt = *Iso, Timfmt = *Iso, Closqlcsr = *EndMod, Commit = *none
 
 Command = 'ADDENVVAR ENVVAR(REMOTE_ADDR) VALUE('+AP+'192.168.0.232'+AP+')';
 Rc = Cmd(Command);

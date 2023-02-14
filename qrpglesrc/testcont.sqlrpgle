@@ -21,7 +21,7 @@ Ctl-Opt  DftActGrp(*no)
 Dcl-Pr TESTCONT ExtPgm('TESTCONT');
 End-Pr TESTCONT;
 
-Dcl-Pi TESTCONT ;
+Dcl-Pi TESTCONT 
 End-Pi TESTCONT;
 
 Dcl-Pr USleep   Int(10) ExtProc('usleep');
