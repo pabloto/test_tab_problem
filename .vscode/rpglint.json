@@ -7,7 +7,6 @@
   "NoOCCURS": true,
   "NoSELECTAll": true,
   "UppercaseConstants": true,
-  "UppercaseDirectives": true,
   "IncorrectVariableCase": true,
   "RequiresParameter": true,
   "StringLiteralDupe": true,
