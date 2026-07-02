@@ -1,5 +1,4 @@
 **free
-/copy /utemp/copyright.rpgleinc
 ctl-opt
   dftactgrp(*no)
   actgrp(*stgmdl)
@@ -14,6 +13,8 @@ ctl-opt
 // ____________________________________________________________________________
 
 dcl-s dataorachar		VarChar(21)	 Inz('20260701150005123456');
+
+// Here's I remove the semicolon
 dcl-s dataora       Timestamp
 
 dataora	= %timestamp(%Dec(dataorachar :21 :0));

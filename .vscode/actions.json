@@ -4,7 +4,7 @@
       "GLOBAL"
     ],
     "name": "Make Build current",
-    "command": "/QOpenSys/pkgs/bin/gmake &BASENAME BUILDLIB=&CURLIB OPT=*EVENTF LIBL='&LIBLS'",
+    "command": "/QOpenSys/pkgs/bin/gmake &BASENAME BUILDLIB=&CURLIB LIBL='&LIBLS'",
     "environment": "pase",
     "deployFirst": true
   }
